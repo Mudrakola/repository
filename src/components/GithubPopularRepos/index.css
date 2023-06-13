@@ -1,0 +1,57 @@
+.bg-container {
+  background-color: #ffffff;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.popular-heading {
+  font-family: 'Lobster';
+  font-size: 35px;
+  color: #0f172a;
+}
+
+.list-container {
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.repository-list-container {
+  width: 90%;
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.failure-image {
+  width: 30%;
+}
+.failure-heading {
+  font-family: 'Lobster';
+  font-size: 40px;
+  color: #1e293b;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 575px) {
+  .repository-list-container {
+    flex-direction: column;
+  }
+}
+
+.failure-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

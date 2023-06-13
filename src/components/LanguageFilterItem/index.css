@@ -1,0 +1,16 @@
+.button {
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #0f172a;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.yes {
+  color: #0284c7;
+  border: 1px solid #0284c7;
+  padding: 5px;
+  border-radius: 10px;
+}
